@@ -1,0 +1,209 @@
+
+body {
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  margin-left: 60px;
+}
+
+/* {{색상구분}} */
+
+.Red {
+  color: #CF3535;
+  font-weight: bolder;
+}
+
+.Green {
+  color: #47A847;
+  font-weight: bolder;
+}
+
+.DeepGreen {
+  color: #007E8F;
+  font-weight: bolder;
+}
+
+/* {{네비게이션 바}} */
+
+.NavBar {
+  background-color: #21859B;
+  width: auto;
+  height: 7.5vh;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 260px;
+}
+
+.Nav_Logo {
+  color: white;
+}
+.Nav_Logo h1{
+  font-size: 35px;
+  font-weight: 550;
+}
+
+.Nav_Menu {
+  font-weight: 100;
+}
+
+/* {{메인 배너}} */
+
+.MainBanner { 
+  /* position: relative; */
+  text-align: center;
+}
+
+.MainBanner img {
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+}
+
+.MainBanner h1 {
+  position: absolute;
+  top: 20vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 4.7vw;
+  font-weight: bolder;
+}
+
+.MainBanner h3{
+  position: absolute;
+  top: 27vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.56vw;
+  font-weight:300;
+}
+
+.MainBanner button {
+  width: 19vw;
+  height: 5.2vw;
+  border-radius: 100vw;
+  border: none;
+  background-color: #0F9BAE;
+  color: white;
+  font-size: 1.9vw;
+  font-weight: 550;
+  font-family: 'Red Hat Display', sans-serif;
+  box-shadow: 0 4px 10px 2px rgb(0,0,0,0.25);
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  position: absolute;
+  top: 35vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.MainBanner button img {
+  width: 2.6vw;
+  height: 2.4vw;
+  text-align: center;
+}
+
+.MainBanner h4 {
+  color: #686868;
+  font-size: 1.2vw;
+  font-weight: 400;
+  position: absolute;
+  top: 37.5vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.Color_Text {
+  color: #007E8F;
+  font-size: 1.6vw;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.container_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 300px;
+  background: linear-gradient(to top, #c2e9fb 0%, white 70%);
+  height: 1080px;
+}
+
+.text-section h1 {
+  font-size: 50px;
+}
+
+.text-section h4 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.container_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 200px;
+  background: linear-gradient(to top, rgba(0, 130, 147, 0.5) 0%, white 70%);
+  height: 1080px;
+  
+}
+
+.container_3 {
+  /* display: flex; */
+  text-align: center;
+  height: 1080px;
+}
+
+.container_3 h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.container_3 h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.container_4 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  height: 2000px;
+}
+.container_4 h1 {
+  font-size: 38px;
+  font-weight: 400;
+  /* align-items: center; */
+}
+
+.footer {
+  background: linear-gradient(to top, #064d5c, white);
+  padding: 50px 0; /* 상하 여백 */
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+}
+
+/* 푸터 내 아이템 간의 여백 */
+.footer-content {
+  display: flex;
+  flex-direction: column; /* 아이템을 세로로 정렬 */
+  align-items: center; /* 중앙 정렬 */
+  gap: 15px; /* 아이템 간의 간격 */
+}
+
+.footer-item {
+  margin: 0;
+}
